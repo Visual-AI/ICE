@@ -1,0 +1,6 @@
+/outputs/
+/datasets/
+/generated_images/
+/.vscode/
+/.DS_Store
+**/__pycache__/
