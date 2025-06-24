@@ -2,7 +2,7 @@
 
 ### Overview
 
-Stage One of the ICE system performs automatic concept localization on input images. This stage processes images to identify and localize key concepts within them.
+Stage One of the ICE system performs automatic concept localization on a single input image. This stage processes images to identify and localize key concepts within it.
 
 ### Usage
 
