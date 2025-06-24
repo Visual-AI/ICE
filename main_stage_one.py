@@ -266,7 +266,7 @@ class AutomaticConceptLocalization:
             mask_percentage = np.where(indicator > 0, 1, 0).sum() / (512 * 512)
             counter += 1
 
-            # If nnumber of counyer is unreasonably high, break the loop
+            # If number of counter is unreasonably high, break the loop
             if counter > 10:
                 print("Too many iterations, breaking the loop...")
                 break
