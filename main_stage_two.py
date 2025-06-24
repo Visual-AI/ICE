@@ -1011,8 +1011,7 @@ class IntrinsicConceptExtraction:
 
     def _preserve_original_embeddings(self, global_step, orig_embeds_params):
         """
-        Preserve original embeddings for non-trainable tokens during phase 1
-        This prevents catastrophic forgetting of the base model's knowledge
+        Preserve original embeddings for non-trainable tokens during phase 1 & phase 2
         """
         with torch.no_grad():
             if global_step < (self.args.step1_train_steps // 2):
