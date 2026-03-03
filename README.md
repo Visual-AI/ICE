@@ -51,6 +51,9 @@ $ CUDA_VISIBLE_DEVICES=0 bash scripts/run_stage_two.sh
 $ CUDA_VISIBLE_DEVICES=0 bash scripts/infer.sh
 ```
 
+## Supporting Files
+We have released the **ICE Stage One D1 results**, the **D1 ground-truth masks**, and the **ICBench annotations**. You can access all of these resources through the attached [link](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/fcendra_connect_hku_hk/IgCzC6kLRtnuR7qzfaPvZ1YoARYEao5JkK2ZTTPdKDwlij8?e=5e4YUY) in this repository.
+
 ## License
 
 This project is under the CC BY-NC-SA 4.0 license. See [LICENSE](https://creativecommons.org/licenses/by-nc-sa/4.0/) for details.
